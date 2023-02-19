@@ -1,0 +1,446 @@
+p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Gloock;
+}
+body{
+    margin: 0 ;
+    border: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+:root{
+    --creamy_white:#FFE7CC;
+    --orange: #FD7E14;
+}
+html{
+    
+    scroll-behavior: smooth;
+}
+.nav_link{
+    font-family: ;
+    letter-spacing: 0.4px;
+    color: black;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: var(--creamy_white);
+    background-color: var(--orange);
+    width: 11rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.nav_link::after{
+    color: var(--creamy_white);
+    background-color: var(--orange);
+    width: 11rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+/* ***************************** NAVBAR ************************** */
+.navbar{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    top: 0;
+    background-color: white;
+    z-index: +10;
+}
+/* .navbar_padding{
+    padding-left: 2rem;
+    padding-right: 2rem;
+} */
+.nav_bar_logo{ 
+    position: absolute;
+    bottom: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    left: 4rem;
+}
+.navbar_elements{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    padding-top: 1.1rem;
+    top: 0.6rem;
+    /* left: 80rem; */
+    left: 60rem;
+    
+
+    
+}
+/* .elements{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem ; 
+} */
+.elements1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem ; 
+    /* background-color: var(--creamy_white); */
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+.elements2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem ; 
+    /* background-color: var(--creamy_white); */
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem; 
+}
+.elements3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem ; 
+    /* background-color: var(--creamy_white); */
+    width: 8rem;
+    height: 2rem; 
+    border-radius: 2rem;
+}
+.elements4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem ; 
+    /* background-color: var(--creamy_white); */
+    width: 7.5rem;
+    height: 2rem; 
+    border-radius: 2rem;
+}
+.elements5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem ; 
+    /* background-color: var(--creamy_white); */
+    width: 8.5rem;
+    height: 2rem; 
+    border-radius: 2rem;
+}
+.job_bro{
+    position: absolute;
+    padding-top: 1rem;
+    left: 10rem;
+    top: 0.6rem;
+    padding-top: 1.2rem;
+}
+/* ********************************* HOME SECTION ******************/
+#home{
+    position: relative;
+    bottom: 10rem;
+}
+#Home{
+    height: 40rem;
+    width: 108rem;
+    background-color: var(--creamy_white);
+    padding: 0.5rem 1rem;
+}
+.job_bro_logo{
+    position: absolute;
+    /* z-index: -1; */
+    height: 30rem;
+    top:10rem;
+    left: 9rem;
+}
+.firstLine{
+    display: inline-block;
+    position: absolute;
+    font-size: 4rem;
+    top: 12rem;
+    right: 10rem;
+}
+#search_bar{
+    /* background-color: #D9D9D9; */
+    position: absolute;
+    border: 0;
+    width: 40rem;
+    height: 3rem;
+    top: 20rem;
+    right: 24rem;
+}
+.search_button{
+    position: absolute;
+    border: 0;
+    width: 10rem;
+    height: 3.2rem;
+    top: 20rem;
+    right: 13.5rem;
+}
+.signIn_link{
+    text-decoration: none;
+}
+.signIn_link:hover{
+    background-color: none;
+}
+.signIn_link:active{
+    color: black;
+}
+
+.signIn{
+    display: flex;
+    position: relative;
+    font-family: 'Righteous';
+    border:6px solid white;
+    border-radius: 10rem;
+    box-shadow: 4px 4px 6px  #2b2b2b;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 5rem;
+    font-size: 2rem;
+    left: 70rem;
+    top: 25rem;
+
+}
+
+/* ******************************home section end******************** */
+ /* ****************************start section end ******************** */
+
+
+ /* *****************************trending job section************** */
+ #jobs{
+    position: relative;
+    top: 4rem;
+
+ }
+ #trending_jobs{
+    height: 50rem;
+ }
+ .trending_job_body_section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10rem;
+    margin-left: 8rem;
+ }
+.trending_jobs{
+    position: relative ;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    /* left: 38rem; */
+}
+.changing_image_box{
+    height: 37.0625rem;
+    width: 32.25rem;
+    background-color: #D2DAFF;
+    /* border-radius: 13.8125rem; */
+
+}
+.trending_jobs_para{
+    font-size: 1.5rem;
+    text-align: left;
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    width: 50rem;
+    left: 38rem;
+    bottom: 25rem;
+}
+
+ /* ****************************job category section ***************** */
+#categories{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65rem;
+    padding: 0.5rem 1rem;
+    /* border: 0;
+    margin: 0; */
+    /* border: 1px solid; */
+}
+ .categories_for_your_ideal_job{
+    position: absolute;
+    font-size: 4rem;
+    top: 5rem;
+}
+.job_cards1{
+    /* background-color: black; */
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    top: 14rem;
+    width: 100rem;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--creamy_white);
+    height: 15rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+.ai{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+    
+}
+.music{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.classroom{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.quill{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.web{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.video{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.app{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.blockchain{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.robotics{
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+/* ******************* resources section ********************* */
+#Resources{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60rem;
+    /* border:1px solid; */
+    position: relative;
+    bottom: 5rem;
+}
+.resources{
+    position: relative;
+    top: 5rem;
+    font-size: 4rem;
+}
+.resource_card_master{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    height: 40rem;
+    width: 40rem;
+    top: 7rem;
+}
+.card2{
+    background-color: #D2DAFF;
+    border-radius: 4rem;
+}
+/* *********************J bro guide ************** */
+.theGreyLline{
+    display: flex;
+    position: relative;
+    background-color: #2b2b2b;
+    height: 4rem;
+    /* z-index: +10; */
+}
+#J_Bro_Guide{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: ;
+    height: 35rem;
+}
+/* .first_line{
+    display: flex;
+    color: white;
+} */
+.second_line{
+    display: inline;
+    position: relative;
+    color: white;
+    width: 20rem;
+    top: 4rem;
+    left: 5rem;
+    
+}
+hr{
+    position: relative;
+    top: 5rem;
+    color: white;
+    width: 110rem;
+}
+.footer_logo{
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    top:8.4rem;
+    left: 1.5rem;
+}
+.arrow_img{
+    position: relative;
+    width: 15rem;
+    height: 2rem;
+    left: 25rem;
+    top: 6.5rem;
+}
